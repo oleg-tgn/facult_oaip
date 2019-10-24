@@ -1,18 +1,18 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int main() {
 	int n;
 	cin >> n;
 	switch (n) {
-		case 1: cout << "ïîíåäåëüíèê"; break;
-		case 2: cout << "âòîðíèê"; break;
-		case 3: cout << "ñðåäà"; break;
-		case 4: cout << "÷åòâåðã"; break;
-		case 5: cout << "ïÿòíèöà"; break;
-		case 6: cout << "ñóááîòà"; break;
-		case 7: cout << "âîñêðåñåíüå"; break;
-		default: cout << "òàêîãî äíÿ íåò";
+		case 1: cout << "Ð¿Ð¾Ð½ÐµÐ´ÐµÐ»ÑŒÐ½Ð¸Ðº"; break;
+		case 2: cout << "Ð²Ñ‚Ð¾Ñ€Ð½Ð¸Ðº"; break;
+		case 3: cout << "ÑÑ€ÐµÐ´Ð°"; break;
+		case 4: cout << "Ñ‡ÐµÑ‚Ð²ÐµÑ€Ð³"; break;
+		case 5: cout << "Ð¿ÑÑ‚Ð½Ð¸Ñ†Ð°"; break;
+		case 6: cout << "ÑÑƒÐ±Ð±Ð¾Ñ‚Ð°"; break;
+		case 7: cout << "Ð²Ð¾ÑÐºÑ€ÐµÑÐµÐ½ÑŒÐµ"; break;
+		default: cout << "Ñ‚Ð°ÐºÐ¾Ð³Ð¾ Ð´Ð½Ñ Ð½ÐµÑ‚";
 	};
 	return 0;
 }
